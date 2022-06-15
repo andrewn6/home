@@ -1,0 +1,8 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server that powers everything",
+  "main": "index.js",
+  "author": "Andrew Nijmeh, PineappleRind",
+  "license": "MIT"
+}
