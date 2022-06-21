@@ -4,5 +4,8 @@
   "description": "Server that powers everything",
   "main": "index.js",
   "author": "Andrew Nijmeh, PineappleRind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
 }

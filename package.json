@@ -2,6 +2,22 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-plugin-react": "^7.30.0",
+    "lerna": "^4.0.0",
+    "prettier": "2.7.1",
+    "semantic-release": "^19.0.3"
+  },
+  "version": "0.0.0-development",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "format": "yarn prettier --write .",
+    "lint": "yarn run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anddddrew/home.git"
   }
 }
